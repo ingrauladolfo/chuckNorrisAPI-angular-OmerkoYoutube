@@ -1,0 +1,65 @@
+.background{
+    background-color: #f15a24;
+}
+.main-content{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.logo{
+    width: 50%;
+}
+.search-content{
+    margin: 30px 0px 15px;
+    display: flex;
+}
+.search-content input{
+    background-color: #000000;
+    border: 1px solid #b2a5a4;
+    color: #d3e6fe;
+    flex: 3;
+    font-size: large;
+    margin-right: 30px;
+    padding: 12px 8px;
+}
+.search-content input:hover{
+    background-color: #d3e6fe;
+    border: 1px solid #a66354;
+    color: #f15a24;
+    font-size: large;
+    flex: 3;
+    margin-right: 30px;
+    padding: 12px 8px;
+}
+.search-content button{
+    flex: 1;
+    background-color: #29abe2;
+    outline: none;
+    border: 1px solid #fab388;
+}
+.categories .category{
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #fab388;
+    margin: 0px 5px 10px 0px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.joke-wrapper{
+    padding: 15px 10px;
+    border: 1px solid #fab388;
+    margin-bottom: 15px;
+}
+.joke-wrapper .joke{
+    display: flex;
+}
+.joke-wrapper .joke img{
+    width: 50px;
+    flex: 1;
+}
+.joke-wrapper .joke p{
+    flex:8;
+    margin-left: 20px;
+    text-align: left;
+}
